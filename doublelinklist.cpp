@@ -25,5 +25,6 @@ void addNode() {
             return;
     }
   newNode->next = START; 
+   if (START != NULL)
  
 
