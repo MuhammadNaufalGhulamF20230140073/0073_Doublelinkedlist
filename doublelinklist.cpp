@@ -18,4 +18,5 @@ void addNode() {
 
     if (START == NULL || newNode->noMhs <= START->noMhs)
     { 
+        if (START != NULL && newNode->noMhs == START->noMhs)
         
